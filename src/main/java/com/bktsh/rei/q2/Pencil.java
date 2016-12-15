@@ -10,7 +10,7 @@ import java.util.Observable;
 /**
  * Created by hashem on 12/12/16.
  */
-public class TrivialPen extends Observable implements MouseMotionListener, MouseListener {
+public class Pencil extends Observable implements MouseMotionListener, MouseListener {
 
     private ArrayList<Point> points = new ArrayList<>();
     private Point start;
@@ -51,12 +51,11 @@ public class TrivialPen extends Observable implements MouseMotionListener, Mouse
 
     @Override
     public void mouseMoved(MouseEvent e) {
-        end = e.getPoint();
     }
 
     @Override
     public void mouseClicked(MouseEvent e) {
-        start = e.getPoint();
+//        start = e.getPoint();
     }
 
     @Override
@@ -66,13 +65,13 @@ public class TrivialPen extends Observable implements MouseMotionListener, Mouse
 
     @Override
     public void mouseReleased(MouseEvent e) {
-        end = e.getPoint();
+        end = null;
         start = null;
+        points =  new ArrayList<>();
     }
 
     @Override
     public void mouseEntered(MouseEvent e) {
-
     }
 
     @Override

@@ -1,5 +1,0 @@
-projectKey=com.bktsh.rei:outdoor-coding
-serverUrl=http://localhost:9009
-dashboardUrl=http://localhost:9009/dashboard/index/com.bktsh.rei:outdoor-coding
-ceTaskId=AVkAIT3Vhqllc25m7C8P
-ceTaskUrl=http://localhost:9009/api/ce/task?id=AVkAIT3Vhqllc25m7C8P

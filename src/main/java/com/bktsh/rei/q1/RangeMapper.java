@@ -8,16 +8,24 @@ import java.util.stream.Collectors;
  */
 public class RangeMapper {
 
-    public List<Range> findRanges(List<Integer> integers) {
-        if (integers == null || integers.isEmpty()) return Collections.EMPTY_LIST;
-        List<Range> result = new ArrayList<>();
-        List<Integer> input = integers.stream().distinct().sorted().collect(Collectors.toList());
-        Integer px = null;
+    /**
+     * Given an array of Integers, will return Set of ranges[if any], with inclusive start and end values, in ascending order.
+     *
+     * @param integers
+     * @return
+     */
+    public Set<Range> findRanges(Integer[] integers) {
+        if (integers == null || integers.length == 0) {
+            return Collections.emptySet();
+        }
+        Set<Range> result = new TreeSet<>();
+        List<Integer> input = (Arrays.asList(integers)).stream().distinct().sorted().collect(Collectors.toList());
+        Integer px;
         Integer py = null;
         int currentIdx = 0;
         while (currentIdx < input.size()) {
             px = input.get(currentIdx++);
-            int highEnd = 0;
+            int highEnd;
             for (highEnd = currentIdx; highEnd < input.size(); highEnd++) {
                 if (input.get(highEnd) - input.get(highEnd - 1) != 1) break;
                 py = input.get(highEnd);

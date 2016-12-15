@@ -3,9 +3,7 @@ package com.bktsh.rei.q1;
 import org.junit.Before;
 import org.junit.Test;
 
-import java.util.Arrays;
-import java.util.Collections;
-import java.util.List;
+import java.util.Set;
 
 import static org.junit.Assert.assertTrue;
 
@@ -23,7 +21,7 @@ public class RangeMapperTest {
 
     @Test
     public void findRangesShouldReturnListOfAscendingRangesGivenNullInput() {
-        List<Range> result = subject.findRanges(null);
+        Set<Range> result = subject.findRanges(null);
         result.forEach(x -> System.out.print(x + " "));
         assertTrue(result.size() == 0);
     }
@@ -31,21 +29,21 @@ public class RangeMapperTest {
     @Test
     public void findRangesShouldReturnListOfAscendingRangesGivenEmptyInput() {
 
-        List<Range> result = subject.findRanges(Collections.emptyList());
+        Set<Range> result = subject.findRanges(new Integer[]{});
         result.forEach(x -> System.out.print(x + " "));
         assertTrue(result.size() == 0);
     }
 
     @Test
     public void findRangesShouldReturnListOfAscendingRangesGivenMultipleRangeInput() {
-        List<Range> result = subject.findRanges(Arrays.asList(35, 36, 34, 7, 5, 6, 3, 2, 4, 1, 89, 92, 90, 91, 110));
+        Set<Range> result = subject.findRanges(new Integer[]{35, 36, 34, 7, 5, 6, 3, 2, 4, 1, 89, 92, 90, 91, 110});
         result.forEach(x -> System.out.print(x + " "));
         assertTrue(result.size() == 3);
     }
 
     @Test
     public void findRangesShouldReturnListOfAscendingRangesGivenSingleRangeInput() {
-        List<Range> result = subject.findRanges(Arrays.asList(109, 110));
+        Set<Range> result = subject.findRanges(new Integer[]{109, 110});
         result.forEach(x -> System.out.print(x + " "));
         System.out.println();
         assertTrue(result.size() == 1);
@@ -53,9 +51,17 @@ public class RangeMapperTest {
 
     @Test
     public void findRangesShouldReturnListOfAscendingRangesGivenNagativeRangeInput() {
-        List<Range> result = subject.findRanges(Arrays.asList(1, 2, -4, -5));
+        Set<Range> result = subject.findRanges(new Integer[]{1, 2, -4, -5});
         result.forEach(x -> System.out.print(x + " "));
         System.out.println();
         assertTrue(result.size() == 2);
+    }
+
+    @Test
+    public void findRangesForSampleProblemStatementInput() {
+        Set<Range> result = subject.findRanges(new Integer[]{1,2,3,4,5,6,3,6,8,5,8,9,4,3,5});
+        result.forEach(x -> System.out.print(x + " "));
+        System.out.println();
+        assertTrue(result.size() > 0);
     }
 }
