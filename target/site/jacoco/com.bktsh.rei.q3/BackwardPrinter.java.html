@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"><html xmlns="http://www.w3.org/1999/xhtml" lang="en"><head><meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/><link rel="stylesheet" href="../.resources/report.css" type="text/css"/><link rel="shortcut icon" href="../.resources/report.gif" type="image/gif"/><title>BackwardPrinter.java</title><link rel="stylesheet" href="../.resources/prettify.css" type="text/css"/><script type="text/javascript" src="../.resources/prettify.js"></script></head><body onload="window['PR_TAB_WIDTH']=4;prettyPrint()"><div class="breadcrumb" id="breadcrumb"><span class="info"><a href="../.sessions.html" class="el_session">Sessions</a></span><a href="../index.html" class="el_report">outdoor-coding</a> &gt; <a href="index.source.html" class="el_package">com.bktsh.rei.q3</a> &gt; <span class="el_source">BackwardPrinter.java</span></div><h1>BackwardPrinter.java</h1><pre class="source lang-java linenums">package com.bktsh.rei.q3;
+
+/**
+ * This class is designed to solve: backward sentence printing. Here is the way it solves the problem:
+ * 1. Break down the sentence into words (array of strings)
+ * 2. Concat items of the array from tail to head and form the reversed sentence and return it
+ * &lt;p&gt;
+ * Edge cases:
+ * a) In case the input is empty or null return it
+ * Assumpption:
+ * I. This algrithm assumes the words are separated by single space.
+ * &lt;p&gt;
+ * Created by hashem on 12/12/16.
+ */
+<span class="fc" id="L15">public class BackwardPrinter {</span>
+
+    /**
+     * Reverse words inside a string, without chanaging characters order in a single word
+     * @param input
+     * @return
+     */
+    public String backwardSentence(String input) {
+<span class="fc bfc" id="L23" title="All 4 branches covered.">        if (input == null || &quot;&quot;.equalsIgnoreCase(input.trim())){</span>
+<span class="fc" id="L24">            System.out.println(&quot;Input was empty, returning!&quot;);</span>
+<span class="fc" id="L25">            return input;</span>
+        }
+<span class="fc" id="L27">        System.out.println(&quot;   Input Sentence: &quot;+ input);</span>
+<span class="fc" id="L28">        String [] arrayOfWords = input.split(&quot; &quot;);</span>
+<span class="fc" id="L29">        String output = concatInReverse(arrayOfWords);</span>
+<span class="fc" id="L30">        System.out.println(&quot;Reversed Sentence: &quot;+ output);</span>
+<span class="fc" id="L31">        return output;</span>
+    }
+
+    private String concatInReverse(String[] arrayOfWords) {
+<span class="fc" id="L35">        StringBuilder sb =  new StringBuilder();</span>
+<span class="fc bfc" id="L36" title="All 2 branches covered.">        for(int i = arrayOfWords.length -1 ; i &gt;=0 ; i--){</span>
+<span class="fc" id="L37">            sb.append(arrayOfWords[i]);</span>
+<span class="fc bfc" id="L38" title="All 2 branches covered.">            if( i &gt; 0) {//don't append last space!</span>
+<span class="fc" id="L39">                sb.append(&quot; &quot;);</span>
+            }
+        }
+<span class="fc" id="L42">        return sb.toString();</span>
+    }
+
+}
+</pre><div class="footer"><span class="right">Created with <a href="http://www.eclemma.org/jacoco">JaCoCo</a> 0.7.6.201602180812</span></div></body></html>
