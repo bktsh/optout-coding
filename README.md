@@ -20,9 +20,9 @@ Pick One (Asking essentially for dictated pseudo-code and approach to solving pr
 2. Write a method that reverses the order of words in a string without reversing the order of the letters within the word. (example: “a quick brown fox” becomes “fox brown quick a”.) 
 
 # How to run DrawApp?
-1. Clone the project
-2. Run following command in project root folder: 
+* Clone the project
+* Run following command in project root folder: 
 ~~~~
 mvn clean install
 ~~~~
-3. Go to target folder and double click on the jar file! 
+* Go to target folder and double click on the jar file! 
