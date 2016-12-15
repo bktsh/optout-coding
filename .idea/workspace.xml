@@ -2,101 +2,15 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ed089ce4-f3e8-4348-8261-27417e4c38e3" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q1/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/Readme.md" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/StatusBar.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q3/Readme.md" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/.name" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/dbnavigator.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_assertj_assertj_core_3_5_2.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__org_hamcrest_hamcrest_core_1_3.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="" />
       <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/rei.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/MyPenDebugger.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q1/Range.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q1/RangeMapper.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q2/Canvas.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q2/DrawingApp.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q2/MyPenDebugger.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q2/TrivialPen.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q3/BackwardPrinter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/com/bktsh/rei/q3/WordCounter.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/jacoco.exec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/outdoor-coding-1.0-SNAPSHOT.jar" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/branchfc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/branchnc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/branchpc.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/bundle.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/class.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/down.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/greenbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/group.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/method.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/package.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/prettify.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/prettify.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/redbar.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/report.css" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/report.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/session.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/sort.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/sort.js" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/source.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.resources/up.gif" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/.sessions.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q1/Range.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q1/Range.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q1/RangeMapper.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q1/RangeMapper.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q1/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q1/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/Canvas.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/Canvas.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/DrawingApp.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/DrawingApp.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/MyPenDebugger.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/MyPenDebugger.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/TrivialPen.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/TrivialPen.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q2/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q3/BackwardPrinter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q3/BackwardPrinter.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q3/WordCounter.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q3/WordCounter.java.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q3/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/com.bktsh.rei.q3/index.source.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/index.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.csv" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/site/jacoco/jacoco.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sonar/.sonar_lock" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sonar/jacoco-overall.exec" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/sonar/report-task.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bktsh.rei.q1.RangeMapperTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bktsh.rei.q3.BackwardPrinterTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-com.bktsh.rei.q3.WordCounterTest.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.bktsh.rei.q1.RangeMapperTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.bktsh.rei.q3.BackwardPrinterTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/surefire-reports/com.bktsh.rei.q3.WordCounterTest.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/bktsh/rei/q1/RangeMapperTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/bktsh/rei/q3/BackwardPrinterTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/test-classes/com/bktsh/rei/q3/WordCounterTest.class" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/TrivialPen.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/Pencil.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/README.md" afterPath="$PROJECT_DIR$/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q1/Range.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q1/Range.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q1/RangeMapper.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q1/RangeMapper.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/Canvas.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/Canvas.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/DrawingApp.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q2/DrawingApp.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q3/BackwardPrinter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q3/BackwardPrinter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q3/WordCounter.java" afterPath="$PROJECT_DIR$/src/main/java/com/bktsh/rei/q3/WordCounter.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/com/bktsh/rei/q1/RangeMapperTest.java" afterPath="$PROJECT_DIR$/src/test/java/com/bktsh/rei/q1/RangeMapperTest.java" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -125,18 +39,8 @@
       <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/.gitignore">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="60">
-              <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="compiler.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/compiler.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+            <state relative-caret-position="75">
+              <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -175,16 +79,6 @@
                 <element signature="e#1946#1947#0" expanded="true" />
                 <element signature="e#1992#1993#0" expanded="true" />
               </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Maven__junit_junit_4_12.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_4_12.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
             </state>
           </provider>
         </entry>
@@ -386,106 +280,6 @@
             </PATH_ELEMENT>
             <PATH_ELEMENT>
               <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q3" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q2" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="src" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="main" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="java" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="rei" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="q1" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="optout-coding" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value=".idea" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="libraries" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
@@ -932,6 +726,14 @@
       <option name="presentableId" value="Default" />
       <updated>1481767254338</updated>
     </task>
+    <task id="LOCAL-00001" summary="Initial commit">
+      <created>1481777727558</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1481777727558</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -961,7 +763,7 @@
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32965517" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32965517" sideWeight="0.5028612" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Properties" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
@@ -997,6 +799,10 @@
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Initial commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="Initial commit" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -1181,8 +987,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/.gitignore">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="0" lean-forward="false" selection-start-line="4" selection-start-column="0" selection-end-line="4" selection-end-column="0" />
+        <state relative-caret-position="75">
+          <caret line="5" column="0" lean-forward="true" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
           <folding />
         </state>
       </provider>
